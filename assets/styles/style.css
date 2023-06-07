@@ -34,6 +34,7 @@
     --hover-cursor: url("../img/select.cur"), auto;
 }
 
+/**************************************************** Animations ****************************************************/
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -50,6 +51,7 @@
     animation: float 3s ease-in-out infinite;
 }
 
+/**************************************************** Default styles ****************************************************/
 body {
     min-height: 100svh;
     margin: 0;
@@ -295,4 +297,8 @@ h1#p4-title {
     font-size: 3rem;
     color: var(--lavender-hsl);
     -webkit-text-stroke: .04em black;
+}
+
+div#p4-wrapper img {
+    display: none;
 }
